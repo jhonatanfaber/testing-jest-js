@@ -18,8 +18,11 @@ describe.skip('FizzBuzz Tests', () => {
 })
 
 describe('Roman number tests', () => {
-    test('should return I when reads 1', () => {
+    test('should return XLIV when reads 44', () => {
         expect(getRomanNumber(44)).toBe("XLIV")
     })
 
+    test('should return 22 when reads 21', () => {
+        expect(getRomanNumber(44)).toBe("XXI")
+    })
 })
